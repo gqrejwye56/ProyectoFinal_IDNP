@@ -11,3 +11,5 @@
         android:text="Ir a segunda pantalla" />
 
 </LinearLayout>
+<activity android:name=".SecondActivity"></activity>
+

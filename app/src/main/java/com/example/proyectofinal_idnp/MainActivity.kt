@@ -11,7 +11,10 @@ class MainActivity : AppCompatActivity() {
 
         val boton = findViewById<Button>(R.id.botonEnviar)
         boton.setOnClickListener {
-
+            val intent = Intent(this, SecondActivity::class.java)
+            intent.putExtra("texto", "Hola desde la primera pantalla!")
+            startActivity(intent)
         }
+
     }
 }
